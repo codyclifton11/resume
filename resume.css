@@ -1,0 +1,109 @@
+body, .details {
+    background: #ccc;
+}
+
+.hide {
+	position: absolute;
+	display: block;
+	top: -9999em;
+	left: -9999em;
+}
+
+.clear {
+	clear: both
+}
+
+.half {
+	float: left;
+	width: 50%;
+}
+
+.header, .experiences, .details {
+	padding: 20px;
+}
+
+.header {
+	background: #222;
+	color: white;
+	top: 0;
+	left: 0;
+	right: 0;
+	position: fixed;
+	height: 130px;
+	-webkit-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.6);
+	-moz-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.6);
+	box-shadow: 0 1px 10px rgba(0, 0, 0, 0.6);
+	
+	text-shadow: 1px 1px 0 #000;
+}
+	
+.header .name {
+	float: left;
+	width: 300px;
+}
+
+.header h1 {
+	font-size: 42px;
+	margin-bottom: 10px;
+}
+
+.header h2 {
+	font-family: "Georgia", Serif;
+	font-weight: normal;
+	font-style: italic;
+	color: #666;
+}
+
+.header dl {
+	float: right;
+	margin: 0;
+}
+
+.experiences {
+	background: #eee;
+	margin-top: 170px;
+}
+
+.experiences h3 {
+	font-size: 30px;
+	line-height: 36px;
+}
+
+.experiences h4 {
+	margin-top: 20px;
+}
+
+.experiences ul {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.skills ul {
+	list-style-type: none;
+	margin: 0 0 10px 0;
+}
+
+.skills ul li {
+	float: left;
+	margin: 0 5px 5px 0;
+	font-size: 90%;
+	background-color: #B3B3B3;
+	padding: 4px;
+	
+	-moz-border-radius: 3px; /* Mozilla */
+	-webkit-border-radius: 3px; /* Webkit */
+	border-radius: 3px; /* W3C */
+}
+
+.skills h6 {
+	clear: left;
+	text-shadow: 1px 1px 0px #444;
+}
+
+dl dt {
+	color: #555;
+}
+
+dl dd {
+	margin: 0 0 10px 0;
+}

@@ -73,9 +73,21 @@ body, .details {
 	margin-top: 20px;
 }
 
+.experiences h5,
+.experiences h6 {
+	float: right;
+}
+
 .experiences ul {
+	clear: both;
 	margin-top: 10px;
-	margin-bottom: 10px;
+	margin-bottom: 20px;
+}
+
+.skills h3, .education h3 {
+	font-family: Georgia, Serif;
+	font-weight: normal;
+	font-size: 24px;
 }
 
 .skills ul {
@@ -97,7 +109,6 @@ body, .details {
 
 .skills h6 {
 	clear: left;
-	text-shadow: 1px 1px 0px #444;
 }
 
 dl dt {
@@ -108,7 +119,18 @@ dl dd {
 	margin: 0 0 10px 0;
 }
 
-dd:first-of-type {
+.education dl dd:first-of-type {
 	font-weight: bold;
-	font-size: 1.1em;
+	font-size: 16px;
+}
+
+.education dl dd:not(:first-of-type) {
+	color: #666;
+	float: left;
+}
+
+.education dl dd:not(:first-of-type) {
+	float: left;
+	clear: left;
+	width: 70px;
 }

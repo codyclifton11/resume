@@ -107,3 +107,8 @@ dl dt {
 dl dd {
 	margin: 0 0 10px 0;
 }
+
+dd:first-of-type {
+	font-weight: bold;
+	font-size: 1.1em;
+}

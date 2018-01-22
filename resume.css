@@ -73,9 +73,12 @@ body, .details {
 	margin-top: 20px;
 }
 
-.experiences h5,
-.experiences h6 {
+.experiences h5, .experiences h6 {
 	float: right;
+}
+
+.experiences h6 {
+	clear: right;
 }
 
 .experiences ul {

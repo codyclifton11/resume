@@ -1,0 +1,84 @@
+row {
+	height: 1em;
+}
+h1 {
+	opacity: 1.0;
+	background-color: green;
+	color: white;
+	font-family: tahoma;
+	font-size: 36px;
+	font-weight: bold;
+	text-align: center;
+	border: 4px solid brown;
+	padding: 15px;
+}
+h2 {
+	color: white;
+	margin: 0 auto;
+	padding: 5px;
+	font-size: 24px;
+	text-decoration: underline;
+	font-style: italic;
+	float: left;
+}
+h3 {
+	color: white;
+	margin: 0 auto;
+	padding: 5px;
+	font-size: 24px;
+	text-decoration: underline;
+	font-style: italic;
+	text-indent: 400px;
+}
+table {
+	text-align: left;
+	padding-left: 10px;
+	padding-right: 0px;
+	padding-bottom: 20px;
+	width: 100%;
+	margin: 0 auto;
+	border: 3px dotted black;
+	background-color: white;
+	font-family: calibri;
+}
+.jumbotron {
+	display: flex;
+	background-size: cover;
+	background-image: url('http://www.lionsports.net/images/2017/1/23/b_SLU_PatKenellyDiamondAtAlumniField_1_2017.jpg');
+    height: 100%;
+	opacity: 1.0;
+	padding: 10px;
+	position: relative;
+}
+body {
+	height: 800px;
+	background-color: #d3d3d3;
+}
+p {
+	background-color: white;
+	font-family: calibri;
+	font-size: 16px;
+	display: inline-block;
+	width: auto;
+}
+p1 {
+	background-color: white;
+	font-family: calibri, "sans serif";
+	font-size: 16px;
+	display: inline-block;
+	float: left;
+	width: 60%;
+	margin: 0px 60px 0px 0px;
+}
+p2 {
+	background-color: white;
+	font-family: calibri, "sans serif";
+	font-size: 16px;
+	display: inline-block;
+	text-indent: auto;
+	width: 60%;
+	margin: 0px 0px 0px 15px;
+}
+#style{
+	overflow: scroll;
+}

@@ -23,7 +23,7 @@ body, .details {
 }
 
 .header {
-	background: #222;
+	background: #000080;
 	color: white;
 	top: 0;
 	left: 0;
@@ -60,7 +60,7 @@ body, .details {
 }
 
 .experiences {
-	background: #eee;
+	background: #ffffff;
 	margin-top: 200px;
 }
 
@@ -77,9 +77,7 @@ body, .details {
 	float: right;
 }
 
-.experiences h6 {
-	clear: right;
-}
+
 
 .experiences ul {
 	clear: both;
@@ -114,14 +112,14 @@ body, .details {
 	clear: left;
 }
 
-.table {
+.experience .table {
 	text-align: left;
 	padding-left: 10px;
 	padding-right: 0px;
 	padding-bottom: 20px;
 	width: 100%;
 	margin: 0 auto;
-	background-color: #eee;
+	background-color: #ffffff;
 	font-family: calibri;
 }
 

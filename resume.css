@@ -114,6 +114,17 @@ body, .details {
 	clear: left;
 }
 
+.table {
+	text-align: left;
+	padding-left: 10px;
+	padding-right: 0px;
+	padding-bottom: 20px;
+	width: 100%;
+	margin: 0 auto;
+	background-color: #eee;
+	font-family: calibri;
+}
+
 dl dt {
 	color: #555;
 }

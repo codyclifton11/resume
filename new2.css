@@ -1,7 +1,8 @@
 row {
 	height: 1em;
 }
-h1 {
+
+.header h1 {
 	opacity: 1.0;
 	background-color: green;
 	color: white;
@@ -10,17 +11,18 @@ h1 {
 	font-weight: bold;
 	text-align: center;
 	border: 4px solid brown;
-	padding: 15px;
+	margin-bottom: 100px;
+	padding: 30px;
+	position: fixed;
+	height: auto;
+	width: 100%;
+	z-index: 0;
 }
-h2 {
-	color: white;
-	margin: 0 auto;
-	padding: 5px;
-	font-size: 24px;
-	text-decoration: underline;
-	font-style: italic;
-	float: left;
+
+li {
+	font-size: 18px;
 }
+
 h3 {
 	color: white;
 	margin: 0 auto;
@@ -30,36 +32,50 @@ h3 {
 	font-style: italic;
 	text-indent: 400px;
 }
+
+.container .table {
+	margin-top: 200px;
+	background-image: url('http://www.lionsports.net/images/2017/1/23/b_SLU_PatKenellyDiamondAtAlumniField_1_2017.jpg');
+	background-size: cover;
+	background-blend-mode: multiply;
+	width: auto;
+	margin: 10px;
+}
+
+.container .table h4 {
+	color: white;
+	margin: 0 auto;
+	padding: 5px;
+	font-size: 24px;
+	text-decoration: underline;
+	font-style: italic;
+	float: left;
+}
+
 table {
 	text-align: left;
 	padding-left: 10px;
 	padding-right: 0px;
 	padding-bottom: 20px;
 	width: 100%;
-	margin: 0 auto;
 	border: 3px dotted black;
 	background-color: white;
 	font-family: calibri;
 }
-.jumbotron {
-	display: flex;
-	background-size: cover;
-	background-image: url('http://www.lionsports.net/images/2017/1/23/b_SLU_PatKenellyDiamondAtAlumniField_1_2017.jpg');
-    height: 100%;
-	opacity: 1.0;
-	padding: 10px;
-	position: relative;
-}
-body {
-	height: 800px;
+
+.body {
 	background-color: #d3d3d3;
+	height: 1000px;
+	overflow-y: scroll;
+	width: auto;
+	margin: 10px;
 }
+
 p {
 	background-color: white;
 	font-family: calibri;
 	font-size: 16px;
 	display: inline-block;
-	width: auto;
 }
 p1 {
 	background-color: white;
@@ -67,8 +83,8 @@ p1 {
 	font-size: 16px;
 	display: inline-block;
 	float: left;
-	width: 60%;
-	margin: 0px 60px 0px 0px;
+	width: auto;
+	margin: 0px 320px 0px 0px;
 }
 p2 {
 	background-color: white;
@@ -79,6 +95,6 @@ p2 {
 	width: 60%;
 	margin: 0px 0px 0px 15px;
 }
-#style{
+.{
 	overflow: scroll;
 }

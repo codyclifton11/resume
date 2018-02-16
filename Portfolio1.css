@@ -1,0 +1,45 @@
+.jumbotron h1 {
+	color: #F0F0F0;
+	text-align: center;
+	padding-top: 25px;
+}
+
+.jumbotron p {
+	text-align: center;
+}
+
+.jumbotron {
+	background: #8BC278;
+	z-index: auto;
+}
+
+p {
+	font-size: 2rem;
+}
+
+.background {
+	background: url(http://www.lionsports.net/images/2017/1/23/b_SLU_PatKenellyDiamondAtAlumniField_1_2017.jpg);
+	position: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 100%;
+	height: auto;
+	min-width: 1024px;
+	min-height: 100%;
+	padding-top: 20px;
+	opacity: 0.5;
+	z-index: -2;
+
+/*.background img {
+	position: absolute;
+	background-size: cover;
+	background-position: center;
+}*/
+
+.hr {
+	width: 50%;
+	border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}

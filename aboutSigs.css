@@ -1,0 +1,77 @@
+.mission { height: auto; width: 100%; margin-top: 100px; font-weight: 700; }
+.charityRaised { height: auto; width: 100%; }
+.feature {height: auto; width: 50%; float: left; font-size: 24px; text-align: left; }
+
+body {
+	font-family: "Lato";
+}
+
+h1 { text-decoration: underline; font-family: "Raleway"; }
+
+.mission .about {width: 60%; float: left; }
+
+.navbar-default {
+	width: 100%;
+	font-family: "Raleway";
+	background-color: #13114D;
+	border: 0;
+	color: white;
+	margin: 0 auto;
+	position: fixed;
+}
+
+.navbar-default .navbar-brand {
+	color: white;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: white;
+	font-family: "Raleway";
+}
+
+.footer {
+	width: 100%;
+	font-family: "Raleway";
+	background-color: #13114D;
+	border: 0;
+	color: white;
+	margin: 0 auto;
+}
+
+.background {
+	background: url(https://cdn.shopify.com/s/files/1/1766/8115/products/baseball-american-flag-wallpaper.jpg?v=1506262291);
+	position: fixed;
+	background-size: cover;
+	background-repeat; no-repeat;
+	background-position: center;
+	min-width: 1024px;
+	min-height: 100%;
+	padding-top: 30px;
+	width: 100%;
+	height: auto;
+	opacity: 0.5;
+	z-index: -2;
+}
+
+p {	font-size: 18px; text-align: center; margin: 10px; line-height: 2em; font-family: "Raleway"; font-weight: 600; }
+
+h4 { border: 10px solid red; }
+
+.raised { width: 40%; height: 60%; border: 5px dashed #820E0E; float: right; padding: 20px; text-align: center; margin: 5% auto; }
+#amountRaised { font-size: 36px; font-weight: 700; text-align: center; }
+
+._2ph { width: 33.333333333%; }
+
+.landing-col { margin: 20px; padding: 80px; float: left; display: block; position: static; position: center; }
+.timeline-Header timeline-InformationCircle-widgetParent { height: 50px; }
+#twitter-widget-0 { height: 200%; margin-top: -200px; background-size: cover; }
+
+.landing-row.social-row { padding:162px 0 54px; background:url(/images/setup/2017/bg_social_row.jpg) no-repeat 50% 0; color:#fff; background-size:cover; background-attachment:fixed }
+.landing-row.social-row:before { content:''; display:block; width:1024px; height:186px; margin:0 auto; text-indent:-9999px; background:url(/images/setup/2017/master_sprite.png) no-repeat 0 -204px }
+
+.section-social-twitter { width: 353px; height: 511px; overflow-y: scroll; border: 5px solid white; position: static; margin-top: -50px; }
+.section-social { width: 353px; height: 511px; overflow-y: scroll; border: 5px solid white; position: static; margin-top: -50px; }
+.section-social > .section-header { position:static; margin:0; text-align:center }
+.section-social > .section-header .text { position:absolute; left:-9999px; width:1px; height:1px; overflow:hidden }
+.section-social > .section-header .icon { display:block; width:56px; height:56px; margin:0 auto; font-size:36px; line-height:56px; color:#fff; background:#042969; border:10px solid #fff; border-radius:100% }
+.section-social > .section-header + div { margin-top:-5px; background:#fff }

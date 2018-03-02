@@ -38,8 +38,10 @@ h3 {
 	background-image: url('http://www.lionsports.net/images/2017/1/23/b_SLU_PatKenellyDiamondAtAlumniField_1_2017.jpg');
 	background-size: cover;
 	background-blend-mode: multiply;
-	width: auto;
+	width: 50%;
 	margin: 10px;
+	font-family: "Raleway";
+	line-height: 1.5;
 }
 
 .container .table h4 {

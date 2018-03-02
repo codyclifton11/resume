@@ -1,14 +1,23 @@
-.mission { height: auto; width: 100%; margin-top: 100px; font-weight: 700; }
-.charityRaised { height: auto; width: 100%; }
-.feature {height: auto; width: 50%; float: left; font-size: 24px; text-align: left; }
+.mission { height: auto; width: 100%; margin-top: 100px; font-weight: 700; text-align: center; }
+.charityRaised { height: auto; width: 100%; float: left; }
+.feature {height: auto; width: auto; float: left; font-size: 24px; text-align: left; }
 
 body {
 	font-family: "Lato";
 }
 
 h1 { text-decoration: underline; font-family: "Raleway"; }
+iframe { width: 90%; height: 700px; margin: 5% 5%; }
+#document { height: 100%; }
+.spreadsheet { height: 650px; }
 
-.mission .about {width: 60%; float: left; }
+a { color: white; font-size: 12px; line-height: 1em; }
+
+.mission .about { width: 60%; float: left; }
+.goals { background-color: #13114D; width: 30%; float: right; margin: 0 auto; border-radius: 5%; line-height: 2em; box-shadow: 10px 10px 5px 1px rgba(19, 17, 77, .2); }
+.goals li { color: white; padding: 20px; font-family: "Raleway"; }
+.goals h3 { color: white; padding: 0 15px; text-decoration: underline; font-family: "Raleway"; }
+.quotes { border-left: 1px solid #13114D; float: right; width: 30%; margin-top: 30px; }
 
 .navbar-default {
 	width: 100%;
@@ -18,15 +27,18 @@ h1 { text-decoration: underline; font-family: "Raleway"; }
 	color: white;
 	margin: 0 auto;
 	position: fixed;
+	z-index: 1;
 }
 
 .navbar-default .navbar-brand {
 	color: white;
+	padding: none;
 }
 
 .navbar-default .navbar-nav>li>a {
 	color: white;
 	font-family: "Raleway";
+	font-size: 14px;
 }
 
 .footer {
@@ -53,7 +65,9 @@ h1 { text-decoration: underline; font-family: "Raleway"; }
 	z-index: -2;
 }
 
-p {	font-size: 18px; text-align: center; margin: 10px; line-height: 2em; font-family: "Raleway"; font-weight: 600; }
+p {	font-size: 18px; text-align: center; margin: 10px; line-height: 2em; font-family: "Raleway"; font-weight: normal; }
+.left { text-align: left; }
+.right { text-align: right; font-weight: 800; }
 
 h4 { border: 10px solid red; }
 

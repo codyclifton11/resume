@@ -1,6 +1,7 @@
 .mission { height: auto; width: 100%; margin-top: 100px; font-weight: 700; float:center; font-size: 18px; }
 #charityRaised { height: auto; width: 100%; float: left; }
 .feature {height: auto; width: auto; float: left; font-size: 24px; text-align: left; font-size: 18px; line-height: 2.5em; }
+.section-youtube {width: 100%; border: 5px solid white; height: 511px; overflow-y: scroll; margin-top: -50px; }
 
 body {
 	font-family: "Lato";
@@ -59,7 +60,7 @@ p {
 	font-family: "Raleway";
 }
 
-a { color: white; font-size: 12px; line-height: 1em; }
+a { color: white; font-size: 20px; line-height: 1em; font-weight: bold; }
 
 h2 { text-align: center; font-family: "Raleway"; }
 h4 { border: 10px solid red; }
@@ -69,8 +70,8 @@ h4 { border: 10px solid red; }
 
 ._2ph { width: 33.333333333%; }
 
-.col-med-6 { margin: 1%; padding: 2%; float: left; display: block; position: static; position: center; width: auto; }
-.col-lg-4 { margin: 1%; padding: 80px; float: left; display: block; position: static; width: auto; }
+.col-med-6 { margin: 6% 1.5% auto; padding: 2%; float: left; display: block; position: static; position: center; width: auto; }
+.col-lg-4 { margin: 6% 1.5% auto; float: left; display: block; position: static; width: auto; }
 .timeline-Header timeline-InformationCircle-widgetParent { height: 50px; }
 #twitter-widget-0 { height: 200%; margin-top: -200px; background-size: cover; }
 
